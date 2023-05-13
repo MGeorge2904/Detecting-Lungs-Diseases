@@ -32,3 +32,15 @@
 ### VGG19+GradCam.ipynb
 В этом файле также выполняется предобработка данных, затем инициализируется модель VGG19 без верхних полносвязных слоёв. Затем добавляются 2 полносвязных слоя с Dropout и выходной слой. Другими словами, выполняется Transfer learning, используя Feature extraction. Итоговых результатов пока нет(достигнут уровень предыдущей модели), в связи с ограничением мощностей, но скоро результаты будут улучшены. <br>
 В любом случае обучение можно продолжать бесконечно, пока не будет достигнут максимальный или требуемый для нас результат.
+
+<br> <br>
+## Пример работы GradCAM на каждом классе:
+![COVID](https://github.com/MGeorge2904/Detecting-Lungs-Diseases/assets/103932673/3b5d1215-64a0-49e0-a559-05da84df8d33)
+![Lung Opacity](https://github.com/MGeorge2904/Detecting-Lungs-Diseases/assets/103932673/5ab73384-c579-4700-8c57-52b8a7c804c8)
+<br>
+**COVID** &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; **Lung Opacity**
+<br> <br>
+![Normal](https://github.com/MGeorge2904/Detecting-Lungs-Diseases/assets/103932673/ac6e81f4-4524-403f-8d51-7a26e94f4dd3)
+![Viral Pneumonia](https://github.com/MGeorge2904/Detecting-Lungs-Diseases/assets/103932673/0bc9f978-ad4e-4325-a0ef-8e6081c108c9)
+<br>
+**Normal** &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; **Viral Pneumonia**
