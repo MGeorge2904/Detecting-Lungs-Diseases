@@ -3,7 +3,7 @@
 
 В этом проекте рассматриваются две различные архитектуры свёрточных нейронных сетей для распознавания заболеваний лёгких.
 
-[Изначальный датасет с сайта kaggle](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database?resource=download)
+[**Изначальный датасет с сайта kaggle**](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database?resource=download)
 
 ### Описание репозитория:
 1. **preprocessing.py** - Подготовка датасета (из изначального датасета)
